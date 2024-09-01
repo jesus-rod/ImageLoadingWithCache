@@ -14,7 +14,7 @@ This client is designed to work for both iOS and MacOS and therefore it was buil
 
 Moreover this design allows for easy extension to other platforms without touching the main logic and functionality to load and cache images. See code snippet below for details.
 
-```
+```swift
 protocol PlatformImage {
     init?(named name: String)
     init?(data: Data)
